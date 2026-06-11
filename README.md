@@ -1,3 +1,113 @@
+EN:
+
+## Overview
+
+The program integrates a wideband spectrum scanner, signal analyzer, multi-mode demodulator, and an intelligent signal detection system powered by machine learning.
+
+![Screenshot](screen.jpg)
+
+### Wideband Spectrum Scanning
+- Simultaneous scanning of up to 5 frequency bands
+- Frequency Range: 1 MHz – 7.25 GHz (Full HackRF range)
+- Configurable scan bandwidth and sampling rate up to 20 MSPS
+- Real-time spectrum visualization with gradient fill
+- Waterfall display for each band with power color-coding
+- 3D Spectrum — three-dimensional spectral representation with time accumulation
+- Multiple scanning profiles: Fast, Balanced, Quality, Native Sweep
+
+### Intelligent Signal Detection
+- Two detection modes: Simple (fast) and Smart (accurate)
+- Three-level threshold system:
+  - Automatic noise floor calculation (Smart mode)
+  - DC Notch filter to suppress zero-frequency artifacts
+  - Weighted central frequency signal detection
+  - Ignore-list system to exclude known interference sources
+
+### Signal Learning and Classification System
+- **Learning Mode**: automatic memorization of background signals
+- **Signal Classification**:
+  - `Known` — known/background signals (Green markers)
+  - `New` — new confirmed signals (Red markers)
+  - `Candidate` — pending confirmation signals (Orange markers)
+  - `Raw` — unprocessed findings (Gray markers)
+- Automatic aging and removal of outdated candidates
+- Configurable signal confirmation thresholds
+
+### Multi-mode Demodulator
+- Modulations: WFM, FM, AM, SSB
+- FPV WFM Video: capture and display video feed
+- Real-time demodulated audio playback
+- RSSI measurement with visual signal strength indicator
+- IQ data recording to file for subsequent analysis
+- Transmission of IQ files over the air **Strictly on authorized frequencies!**
+
+
+## Areas of Application
+
+### Security and Counterintelligence
+- Detection of hidden transmitters (bugs, covert devices) in rooms
+- Search for unauthorized wireless devices in protected zones
+- Radio frequency environment monitoring on critical infrastructure objects
+- FPV drone detection via control radio signals and video links
+- Identification of jammers and interference in the RF spectrum
+- Airwave control at special events and negotiations
+
+### Radio Monitoring and Regulation
+- Monitoring frequency spectrum usage for regulatory bodies
+- Detection of illegal radio stations and transmitters
+- Interference control for licensed radio services
+- Electromagnetic environment profiling for territories and objects
+- Monitoring frequency band utilization levels
+- Searching for RF interference sources for civil and specialized services
+
+### Education and Research
+- Teaching the basics of radio engineering and signal processing
+- Laboratory work for radio electronics and telecommunications courses
+- RF spectrum research in scientific projects
+- Demonstration of modulation/demodulation principles (AM, FM, SSB)
+- Studying FFT and digital signal processing (DSP) principles
+- Prototyping and testing new detection algorithms
+
+### Industry and Telecommunications
+- Testing and tuning of radio transmitters and antennas
+- Electromagnetic Compatibility (EMC) equipment analysis
+- Monitoring base station operability in cellular networks
+- Identifying interference sources for industrial equipment
+- Testing IoT devices and their RF characteristics
+- Communication channel quality control
+
+### Ham Radio and Hobby
+- Listening to ham radio bands (HF, VHF, UHF)
+- Monitoring aviation band (118–136 MHz AM)
+- Monitoring emergency services and trunking networks
+- Analyzing remote control, fobs, and sensors signals (315/433/868 MHz)
+
+### Anti-Drone Systems
+- Detection of drone control channels (900 MHz, 1.2 GHz, 2.4 GHz, 5.8 GHz)
+- Detection of FPV video links (analog and digital)
+- Drone type identification based on characteristic RF signatures
+- Tracking FHSS signals (DJI, FrSky, CrossFire)
+- Automated classification of new and known signals
+- Integration with early warning systems
+
+### Wireless Network Monitoring
+- Wi-Fi channel load analysis (2.4 GHz and 5 GHz)
+- Unauthorized Access Point (Rogue AP) detection
+- Bluetooth and BLE device monitoring (2.4 GHz)
+- Analysis of ZigBee, Z-Wave, and other IoT protocols
+- Electromagnetic environment assessment in offices and residential buildings
+- Wireless equipment placement planning
+
+### Medicine and Specialized Applications
+- EMF monitoring in operating rooms and laboratories
+- Interference source search for medical equipment
+- Monitoring wireless medical sensor operations
+- Ensuring electromagnetic purity in zones with sensitive equipment.
+
+
+
+RUS:
+
 Программа объединяет в себе широкополосный сканер спектра, анализатор сигналов, 
 многорежимный демодулятор и систему интеллектуального обнаружения сигналов с машинным обучением.
 
@@ -108,4 +218,16 @@
 
 Видео на YouTube:  https://www.youtube.com/watch?v=ZxTEvO0BNdY
 
+
+
+## Author
+
+[inside4rom]
+
+
+## Contact
+
+For questions, bug reports, feature requests, or collaboration proposals:
+
+📧 Email: [](mailto:inside4rom@gmail.com)  
 
