@@ -229,5 +229,5 @@ RUS:
 
 For questions, bug reports, feature requests, or collaboration proposals:
 
-📧 Email: [](mailto:inside4rom@gmail.com)  
+📧 Email: [inside4rom@gmail.com](mailto:inside4rom@gmail.com)  
 
