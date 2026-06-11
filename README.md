@@ -221,13 +221,7 @@ RUS:
 
 
 ## Author
-
 [inside4rom]
 
 
-## Contact
-
-For questions, bug reports, feature requests, or collaboration proposals:
-
-📧 Email: [inside4rom@gmail.com](mailto:inside4rom@gmail.com)  
 
